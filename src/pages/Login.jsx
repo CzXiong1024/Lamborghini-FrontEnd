@@ -27,7 +27,7 @@ const Login = () => {
     <title>Login | Lamborghini E-Commerce</title>
     <meta name='description' content='Login' />
   </Helmet>
-  <Title order={1} style={{ marginBottom: '10px' }}>Login</Title>
+  <Title order={1} style={{ display: 'flex', justifyContent: 'center', marginBottom: '10px' }}>Sign in</Title>
   <form>
     <TextInput
     placeholder="Enter your email"
@@ -55,14 +55,15 @@ const Login = () => {
       </Link>
     </div>
   </form>
-  <div>
-  < img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Flagship_100_Blog_2880x1800_Apparel.jpg" alt="shopping" style={{ width: '100%' }} />
-  </div>
+    <div>
+    <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Flagship_100_Blog_2880x1800_Apparel.jpg" alt="shopping" style={{ width: '100%', marginTop: '20px'}} />
+    </div>
     </div>
   </div>
   
   </>
   )
 }
+
 
 export default Login;
