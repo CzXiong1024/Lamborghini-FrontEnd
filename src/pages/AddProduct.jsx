@@ -17,8 +17,11 @@ const AddProduct = () => {
   }
 
   const handleSubmit = () => {
-    createProduct(product, dispatch);
-    navigate('/');
+    createProduct(product, dispatch)
+        .then(() => {
+          navigate('/');
+          window.location.reload();
+        });
   }
 
   return (

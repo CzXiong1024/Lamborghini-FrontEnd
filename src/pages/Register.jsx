@@ -24,6 +24,7 @@ const Register = () => {
     }
     try {
       await axios.post('https://infsci2560-final-lambo-server.glitch.me/api/auth/register', newBody);
+      alert('Congratulations! Registration Succeed!');
       navigate('/login');
     } catch (error) {
       console.log('Error')
