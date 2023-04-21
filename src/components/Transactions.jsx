@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import { Title, Text, Table, ScrollArea } from '@mantine/core';
 import { Pagination } from '@mui/material';
+import { Bold } from 'tabler-icons-react';
+import { orange } from '@mui/material/colors';
 
 const Transactions = () => {
   const transactions = JSON.parse(localStorage.getItem('user')).transactionHistory;
@@ -18,7 +20,7 @@ const Transactions = () => {
       <>
       <Title order={3} style={{ marginBottom: '10px' }}>Your Transactions</Title>
       <Text size="md">Below is a list of your purchase history</Text>
-      <Text color="orange">*If you recently made a purchase, log out then log back in to see your order details</Text>
+      <Text style={{fontWeight:'Bold', color:'orange'}}>*If you recently made a purchase, log out then log back in to see your order details*</Text>
       
       <ScrollArea>
         <Table sx={{ minWidth: 800 }} verticalSpacing="sm" style={{ justifyContent: 'center' }}>
