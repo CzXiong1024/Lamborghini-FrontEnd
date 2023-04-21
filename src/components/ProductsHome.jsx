@@ -19,7 +19,7 @@ const ProductsHome = () => {
       :
       <SimpleGrid cols={3} style={{ marginTop: '20px' }} breakpoints={[
         { maxWidth: 'lg', cols: 3 },
-        { maxWidth: 'md', cols: 3 },
+        { maxWidth: 'md', cols: 2 },
         { maxWidth: 'sm', cols: 1 },
       ]}>
         {
