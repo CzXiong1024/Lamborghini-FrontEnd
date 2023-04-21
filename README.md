@@ -1,4 +1,4 @@
-# Lamboghini E-Commerce
+# Lamborghini E-Commerce
 
 ## 🛠 Tools Used
 * MongoDB
