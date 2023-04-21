@@ -47,16 +47,16 @@ const Cart = () => {
     <Title order={2} style={{ marginBottom: '10px' }}>Your shopping cart is empty</Title>
     :
     <>
-    <Title order={2} style={{ marginBottom: '10px' }}>Your shopping cart has {cart.length} items</Title>
+    <Title order={2} style={{ marginBottom: '10px' }}>Your shopping cart has {cart.length} items, Ready to Checkout?</Title>
     <ScrollArea>
       <Table sx={{ minWidth: 800 }} verticalSpacing="sm" style={{ justifyContent: 'center' }}>
         <thead>
           <tr>
             <th>Image</th>
-            <th>Product Title</th>
+            <th>Product Name</th>
             <th>Price</th>
             <th>Quantity</th>
-            <th>Remove From Cart</th>
+            <th>I Don't Want it</th>
           </tr>
         </thead>
         
@@ -92,7 +92,7 @@ const Cart = () => {
                   />
                 </td>
                 <td>
-                  <Button type="Submit" variant="light" color="red" size="sm" onClick={() => dispatch({ type: "REMOVE_FROM_CART", payload: product, })}>Remove</Button>
+                  <Button type="Submit" color="red" size="sm" onClick={() => dispatch({ type: "REMOVE_FROM_CART", payload: product, })}>Remove</Button>
                 </td>
               </tr>
               )
@@ -101,10 +101,10 @@ const Cart = () => {
         </tbody>
       </Table>
     </ScrollArea>
-    <Title order={2} style={{ marginTop: '20px', marginBottom: '20px', }}>Total ({cart.length}) items: ${total}</Title>
+    <Title order={2} style={{ marginTop: '20px', marginBottom: '20px'}}>Total ({cart.length}) items: ${total}</Title>
     <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '20px' }}>
-      <Button type="Submit" variant="light" size="sm" color="red" style={{ marginRight: '5px' }} onClick={() => dispatch({ type: "EMPTY_CART", payload: cart, })}>Empty Cart</Button>
-      <Button type="Submit" variant="light" size="sm" color="green" onClick={handleSubmit}>Checkout</Button>
+      <Button type="Submit" color="red" style={{ marginRight: '5px' }} onClick={() => dispatch({ type: "EMPTY_CART", payload: cart, })}>Empty Your Cart</Button>
+      <Button type="Submit" color="green" onClick={handleSubmit}>Checkout</Button>
     </div>
     </>
     }

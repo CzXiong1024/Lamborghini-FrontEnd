@@ -7,14 +7,14 @@ const ProductCard = (props) => {
   const MAX_LENGTH = 30;
   return (
   <div style={{ width: '100%', margin: 'auto' }}>
-    <Card shadow="sm" p="lg">
+    <Card p="lg">
       <Card.Section>
-        <Image src={props.image} height={160} alt={props.title} />
+        <Image src={props.image} height={220} alt={props.title} />
       </Card.Section>
       
       <Group position="apart" style={{ marginBottom: 5, marginTop: 5 }}>
-        <Text size={17} weight={400}>{props.title.substring(0, MAX_LENGTH)}...</Text>
-        <Badge color="green" variant="light">
+        <Text size={15} weight={400}>{props.title.substring(0, MAX_LENGTH)}...</Text>
+        <Badge color="pink" style={{fontSize: '1em'}}>
           ${props.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
         </Badge>
       </Group>
@@ -25,13 +25,13 @@ const ProductCard = (props) => {
       
       {
         cart.some((product) => product.id === props.id) ? (
-        <Button variant="light" color="red" fullWidth style={{ marginTop: 14 }} onClick={() => dispatch({ type: "REMOVE_FROM_CART", payload: props })}>
+        <Button color="red" fullWidth style={{ marginTop: 14 }} onClick={() => dispatch({ type: "REMOVE_FROM_CART", payload: props })}>
           Remove from cart
         </Button>
         )
         : 
         (
-        <Button variant="light" color="blue" fullWidth style={{ marginTop: 14 }} onClick={() => dispatch({ type: "ADD_TO_CART", payload: props })}>
+        <Button color="blue" fullWidth style={{ marginTop: 14 }} onClick={() => dispatch({ type: "ADD_TO_CART", payload: props })}>
           Add to cart
         </Button>
         )

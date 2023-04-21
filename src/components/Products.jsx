@@ -34,20 +34,20 @@ const Products = () => {
     />
     <NativeSelect
       size="md"
-      data={['Accessories', 'Desktops', 'Laptops', 'iPhones', 'iPads', 'Watches']}
+      data={['Accessories', 'Desktops', 'Laptops', 'Phones', 'Tablets', 'Watches']}
       onChange={(e) => setCategory(e.target.value)}
       value={category}
       placeholder="Select one"
       label="Filter products by category"
     />
     {isFetching ?
-    <Loader color="violet" size="xl" variant="dots" style={{ padding: '20px', width: '100%', display: 'flex', justifyContent: 'center' }}/>
+    <Loader size="xl" style={{ padding: '20px', width: '100%', display: 'flex', justifyContent: 'center' }}/>
     :
     <>
     <SimpleGrid cols={3} style={{ marginTop: '20px' }} breakpoints={[
       { maxWidth: 'lg', cols: 3 },
-      { maxWidth: 'md', cols: 3 },
-      { maxWidth: 'sm', cols: 2 },
+      { maxWidth: 'md', cols: 2 },
+      { maxWidth: 'sm', cols: 1 },
     ]}>
       {
         products

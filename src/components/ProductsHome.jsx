@@ -15,7 +15,7 @@ const ProductsHome = () => {
 	  <>
     {
       isFetching ? 
-      <Loader color="violet" size="xl" variant="dots" style={{ padding: '20px', width: '100%', display: 'flex', justifyContent: 'center' }}/>
+      <Loader color="violet" size="xl" style={{ padding: '20px', width: '100%', display: 'flex', justifyContent: 'center' }}/>
       :
       <SimpleGrid cols={3} style={{ marginTop: '20px' }} breakpoints={[
         { maxWidth: 'lg', cols: 3 },

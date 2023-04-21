@@ -23,9 +23,9 @@ function App() {
     <BrowserRouter>
     <Helmet>
       <title>Lamborghini E-Commerce</title>
-      <meta name='title' content='Apple E-Commerce' />
+      <meta name='title' content='Lamborghini E-Commerce' />
       <meta name='description' content='An E-Commerce web app built with React.' />
-      <meta property="og:title" content='Apple E-Commerce' />
+      <meta property="og:title" content='Lamborghini E-Commerce' />
       <meta property="og:description" content='An E-Commerce web app built with React.' />
       <meta property="og:image" content='%PUBLIC_URL%/preview.png' />
     </Helmet>

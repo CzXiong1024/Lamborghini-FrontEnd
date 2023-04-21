@@ -3,14 +3,14 @@ import { Header, Container, Group, Button } from '@mantine/core';
 import { NavLink, Link } from 'react-router-dom';
 import { AuthContext } from '../context/authContext/AuthContext';
 import { CartState } from '../context/cartContext/CartContext';
-import { BrandApple, ShoppingCart } from 'tabler-icons-react';
+import { BrandApple, BrandReactNative, ShoppingCart } from 'tabler-icons-react';
 
 const NavBar = () => {
   const { user } = useContext(AuthContext);
   const { state: { cart } } = CartState();
 
   return (
-  <Header height={60} mb={40}>
+  <Header height={80} mb={30}>
     <Container 
     style={{ 
       display: 'flex', 
@@ -18,32 +18,30 @@ const NavBar = () => {
       alignItems: 'center', 
       height: '100%' }}
     >
-      <div style={{ width: '42px' }}>
+      <div style={{ width: '43px' }}>
         <Link to='/'>
-          <BrandApple size={42} strokeWidth={1} color={'#7140bf'} />
+          <BrandReactNative size={42} strokeWidth={1} color={'#f69582'} />
         </Link>
       </div>
       {/* <div className="textLogo">Apple eCommerce</div> */}
-      <Group spacing={5}>
+      <Group spacing={8}>
         <NavLink to='/products'>
-          <Button type="Submit" variant="subtle" color="gray" size="sm" >Products</Button>
+          <Button type="Submit" variant="subtle" color="dark" style={{ fontSize: '16px' }}>Products</Button>
         </NavLink>
-        {/* <Link to='/products'>
-          <Button type="Submit" variant="subtle" size="sm" >Products</Button>
-        </Link> */}
+        
 
         {
         user ? 
         <NavLink to='/account'>
-          <Button variant="subtle" color="gray" size="sm">Account</Button>
+          <Button variant="subtle" color="dark" style={{ fontSize: '16px' }}>Account</Button>
         </NavLink> : 
         <NavLink to='/login'>
-          <Button variant="subtle" color="gray" size="sm">Login</Button>
+          <Button variant="subtle" color="dark" style={{ fontSize: '16px' }}>Login</Button>
         </NavLink>
         }
 
         <NavLink to='/cart'>
-          <Button type="Submit" variant="subtle" color="gray" size="sm" ><ShoppingCart size={16} color={'grey'}/>
+          <Button type="Submit" variant="subtle" color="orange" style={{ fontSize: '16px' }}><ShoppingCart size={22} color={'#f69582'}/>
             &nbsp; {cart.length}
           </Button>
         </NavLink>

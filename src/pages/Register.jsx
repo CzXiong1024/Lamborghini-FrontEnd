@@ -83,7 +83,7 @@ const Register = () => {
   />
   
   <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '20px' }}>
-  <Button type="Submit" variant="light" size="sm" onClick={handleFinish}>Register</Button>
+  <Button type="Submit" onClick={handleFinish}>Register</Button>
   </div>
 
   </>

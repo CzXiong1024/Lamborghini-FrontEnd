@@ -12,13 +12,13 @@ const Transactions = () => {
       transactions.length <= 0 ? 
       <>
       <Title order={3} style={{ marginBottom: '10px' }}>You haven't made any purchases yet</Title>
-      <Text size="md">If you recently made a purchase, log out then log back in to see your order details</Text>
+      <Text>*If you recently made a purchase, log out then log back in to see your order details</Text>
       </>
       :
       <>
       <Title order={3} style={{ marginBottom: '10px' }}>Your Transactions</Title>
       <Text size="md">Below is a list of your purchase history</Text>
-      <Text size="md">If you recently made a purchase, log out then log back in to see your order details</Text>
+      <Text color="orange">*If you recently made a purchase, log out then log back in to see your order details</Text>
       
       <ScrollArea>
         <Table sx={{ minWidth: 800 }} verticalSpacing="sm" style={{ justifyContent: 'center' }}>

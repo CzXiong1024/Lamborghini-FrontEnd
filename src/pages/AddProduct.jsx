@@ -32,7 +32,7 @@ const AddProduct = () => {
       <>
       <Title order={2}>Add A New Product</Title>
       <TextInput
-      label="Image"
+      label="Image Link"
       placeholder='http://website.com/image.jpg'
       id="image"
       size="md"
@@ -40,8 +40,8 @@ const AddProduct = () => {
       onChange={handleChange}
       />
       <TextInput
-      label="Product Title"
-      placeholder='Title of product'
+      label="Product Name"
+      placeholder='Name of product'
       id="title"
       size="md"
       required
@@ -57,7 +57,7 @@ const AddProduct = () => {
       <NativeSelect
       size="md"
       id='category'
-      data={['Accessories', 'Desktops', 'Laptops', 'iPhones', 'iPads', 'Watches']}
+      data={['Accessories', 'Desktops', 'Laptops', 'Phones', 'tablets', 'Watches']}
       onChange={handleChange}
       placeholder="Select one"
       label="Choose category"
@@ -73,7 +73,7 @@ const AddProduct = () => {
       />
 
       <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '20px' }}>
-        <Button type="Submit" variant="light" size="sm" onClick={handleSubmit}>Add Product</Button>
+        <Button type="Submit" onClick={handleSubmit}>Add Product</Button>
       </div>
     </>
       :
