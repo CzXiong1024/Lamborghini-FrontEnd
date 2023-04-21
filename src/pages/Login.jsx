@@ -46,7 +46,6 @@ const Login = () => {
     type="password"
     required
     />
-
     <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '20px' }}>
       <Button type="Submit" onClick={handleLogin} disabled={isFetching} style={{ marginRight: '5px' }}>Login</Button>
       <Link to='/register'>

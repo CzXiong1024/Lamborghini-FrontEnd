@@ -25,8 +25,8 @@ Password: 654321
 
 ## Screenshots
 
-![login](https://raw.githubusercontent.com/austindflatt/ecommerce-client/main/LoginScreenshot.png)
+![login](login.png)
 
-![user](https://raw.githubusercontent.com/austindflatt/ecommerce-client/main/UserScreenshot.png)
+![user](user_account.png)
 
-![admin](https://raw.githubusercontent.com/austindflatt/ecommerce-client/main/AdminScreenshot.png)
+![admin](admin_account.png)
