@@ -101,7 +101,7 @@ const UserList = () => {
             <td>{user.firstName} {user.lastName}</td>
             <td>
               <Button type="Submit" color="blue" size="sm" style={{ marginRight: '10px' }} onClick={() => showEdit(user._id)}>Edit</Button>
-              <Button type="Submit" color="red" size="sm" onClick={() => handleDelete(user._id)}>Delete</Button>
+              <Button type="Submit" color="orange" size="sm" onClick={() => handleDelete(user._id)}>Delete</Button>
             </td>
           </tr>
           )

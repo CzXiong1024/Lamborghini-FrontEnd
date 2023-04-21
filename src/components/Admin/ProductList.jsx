@@ -117,7 +117,7 @@ const ProductList = () => {
             <td>{product.category}</td>
             <td>
               <Button type="Submit" color="blue" size="sm" style={{ marginRight: '15px' }} onClick={() => showEdit(product._id)}>Edit</Button>
-              <Button type="Submit" color="red" size="sm" onClick={() => handleDelete(product._id)}>Delete</Button>
+              <Button type="Submit" color="orange" size="sm" onClick={() => handleDelete(product._id)}>Delete</Button>
             </td>
           </tr>
           )

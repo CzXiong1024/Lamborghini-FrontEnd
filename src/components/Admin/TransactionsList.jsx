@@ -66,7 +66,7 @@ const TransactionsList = () => {
             <td>{transaction.user}</td>
             <td>{transaction.createdAt}</td>
             <td>
-              <Button type="Submit" color="red" size="sm" onClick={() => handleDelete(transaction._id)}>Delete</Button>
+              <Button type="Submit" color="orange" size="sm" onClick={() => handleDelete(transaction._id)}>Delete</Button>
             </td>
           </tr>
           )

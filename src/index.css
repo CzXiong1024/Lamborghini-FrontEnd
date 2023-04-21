@@ -3,3 +3,11 @@
     display: none;
   }
 } */
+
+body {
+  /* background-image: url('https://images.pexels.com/photos/1843717/pexels-photo-1843717.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'); */
+  background-color:rgb(252, 255, 238);
+  background-size: cover;
+  background-position: center;
+}
+

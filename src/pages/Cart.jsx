@@ -92,7 +92,7 @@ const Cart = () => {
                   />
                 </td>
                 <td>
-                  <Button type="Submit" color="red" size="sm" onClick={() => dispatch({ type: "REMOVE_FROM_CART", payload: product, })}>Remove</Button>
+                  <Button type="Submit" color="orange" size="sm" onClick={() => dispatch({ type: "REMOVE_FROM_CART", payload: product, })}>Remove</Button>
                 </td>
               </tr>
               )
@@ -103,7 +103,7 @@ const Cart = () => {
     </ScrollArea>
     <Title order={2} style={{ marginTop: '20px', marginBottom: '20px'}}>Total ({cart.length}) items: ${total}</Title>
     <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '20px' }}>
-      <Button type="Submit" color="red" style={{ marginRight: '5px' }} onClick={() => dispatch({ type: "EMPTY_CART", payload: cart, })}>Empty Your Cart</Button>
+      <Button type="Submit" color="orange" style={{ marginRight: '5px' }} onClick={() => dispatch({ type: "EMPTY_CART", payload: cart, })}>Empty Your Cart</Button>
       <Button type="Submit" color="green" onClick={handleSubmit}>Checkout</Button>
     </div>
     </>

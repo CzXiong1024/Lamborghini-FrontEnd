@@ -12,24 +12,25 @@ const NavBar = () => {
   return (
   <Header height={80} mb={30}>
     <Container 
-    style={{ 
+    style={{
+      backgroundColor: 'rgb(252, 255, 238)',
       display: 'flex', 
       justifyContent: 'space-between', 
       alignItems: 'center', 
       height: '100%' }}
     >
-      <div style={{ width: '43px' }}>
-        <Link to='/'>
-          <BrandReactNative size={42} strokeWidth={1} color={'#f69582'} />
-        </Link>
+      <div style={{ display: 'flex', alignItems: 'center' }}>
+        <div style={{ width: '48px', marginRight: '10px' }}>
+          <Link to='/'>
+            <BrandReactNative size={55} strokeWidth={1} color={'#f69582'} />
+          </Link>
+        </div>
+        <span style={{ fontSize: '18px', fontWeight: 'bold' }}>The Best Prices</span>
       </div>
-      {/* <div className="textLogo">Apple eCommerce</div> */}
       <Group spacing={8}>
         <NavLink to='/products'>
           <Button type="Submit" variant="subtle" color="dark" style={{ fontSize: '16px' }}>Products</Button>
-        </NavLink>
-        
-
+        </NavLink>      
         {
         user ? 
         <NavLink to='/account'>
@@ -51,5 +52,6 @@ const NavBar = () => {
   </Header>
   )
 }
+
 
 export default NavBar
