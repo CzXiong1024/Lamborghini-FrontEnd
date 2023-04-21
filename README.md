@@ -9,19 +9,19 @@
 
 ## View Backend Code
 
-[View Backend](https://github.com/austindflatt/ecommerce-server)
+[View Backend](https://glitch.com/~infsci2560-final-lambo-server)
 
 ## ✨ Live Site
 
-[View Live](http://ecommerce-client-five.vercel.app/)
+[View Live](http://)
 
 Test out the Admin features:
-Email: admin@ecommcapstone.com
-Password: 1234
+Email: 609983260@qq.com
+Password: 123456
 
 Test out regular user features:
-Email: user@ecommcapstone.com
-Password: 1234
+Email: chx53@pitt.edu
+Password: 654321
 
 ## Screenshots
 
