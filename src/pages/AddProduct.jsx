@@ -19,6 +19,7 @@ const AddProduct = () => {
   const handleSubmit = () => {
     createProduct(product, dispatch)
         .then(() => {
+          alert('Product Successfully Added to the Database!');
           navigate('/');
           window.location.reload();
         });
