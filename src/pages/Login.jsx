@@ -21,7 +21,9 @@ const Login = () => {
   
   return (
   <>
-  <Helmet>
+  <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+    <div style={{ width: '50%' }}>
+    <Helmet>
     <title>Login | Lamborghini E-Commerce</title>
     <meta name='description' content='Login' />
   </Helmet>
@@ -53,6 +55,12 @@ const Login = () => {
       </Link>
     </div>
   </form>
+  <div>
+  < img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/original_images/Flagship_100_Blog_2880x1800_Apparel.jpg" alt="shopping" style={{ width: '100%' }} />
+  </div>
+    </div>
+  </div>
+  
   </>
   )
 }
