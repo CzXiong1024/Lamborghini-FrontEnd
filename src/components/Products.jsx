@@ -20,7 +20,7 @@ const Products = () => {
   return (
 	  <>
     <Helmet>
-      <title>Products | Apple E-Commerce</title>
+      <title>Products | Lamborghini E-Commerce</title>
       <meta name='description' content='Products' />
     </Helmet>
     <Title order={2} style={{ marginBottom: '10px' }}>Filter Products</Title>

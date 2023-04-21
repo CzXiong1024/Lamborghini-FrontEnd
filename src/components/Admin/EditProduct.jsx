@@ -61,7 +61,7 @@ const EditProduct = ({ editId, setEdit }) => {
   return (
     <>
     <Helmet>
-      <title>Edit {title} | Apple E-Commerce</title>
+      <title>Edit {title} | Lamborghini E-Commerce</title>
       <meta name='description' content='Edit Product' />
     </Helmet>
     {

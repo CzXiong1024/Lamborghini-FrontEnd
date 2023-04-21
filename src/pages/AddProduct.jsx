@@ -24,7 +24,7 @@ const AddProduct = () => {
   return (
     <>
     <Helmet>
-      <title>Add New Product | Apple E-Commerce</title>
+      <title>Add New Product | Lamborghini E-Commerce</title>
       <meta name='description' content='Add New Product' />
     </Helmet>
     {

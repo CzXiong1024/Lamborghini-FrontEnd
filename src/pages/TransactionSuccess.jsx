@@ -7,7 +7,7 @@ const TransactionSuccess = () => {
   return (
     <>
     <Helmet>
-      <title>Order Successful | Apple E-Commerce</title>
+      <title>Order Successful | Lamborghini E-Commerce</title>
       <meta name='description' content='Order Successful' />
     </Helmet>
     <Title order={3} style={{ marginBottom: '10px' }}>Thank you for your order! ✅</Title>

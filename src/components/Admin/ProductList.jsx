@@ -33,7 +33,7 @@ const ProductList = () => {
   return (
     <>
     <Helmet>
-      <title>Manage Products | Apple E-Commerce</title>
+      <title>Manage Products | Lamborghini E-Commerce</title>
       <meta name='description' content='Admin Products' />
     </Helmet>
     <Link to='/account/add-product'>

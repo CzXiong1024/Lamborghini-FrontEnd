@@ -18,7 +18,7 @@ const User = () => {
   return (
     <>
     <Helmet>
-      <title>Your Account | Apple E-Commerce</title>
+      <title>Your Account | Lamborghini E-Commerce</title>
       <meta name='description' content='Your Account' />
     </Helmet>
     <div style={{ width: 100 }}>

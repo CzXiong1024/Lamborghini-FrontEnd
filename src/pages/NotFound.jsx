@@ -7,7 +7,7 @@ const NotFound = () => {
   return (
     <>
     <Helmet>
-      <title>404 Not Found | Apple E-Commerce</title>
+      <title>404 Not Found | Lamborghini E-Commerce</title>
       <meta name='description' content='404 Not Found' />
     </Helmet>
     <Title order={3} style={{ marginBottom: '10px' }}>404 Page Not Found!</Title>

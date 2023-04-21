@@ -33,7 +33,7 @@ const Register = () => {
   return (
   <>
   <Helmet>
-    <title>Register | Apple E-Commerce</title>
+    <title>Register | Lamborghini E-Commerce</title>
     <meta name='description' content='Register' />
   </Helmet>
   <Title order={1} style={{ marginBottom: '10px' }}>Register Account</Title>

@@ -22,7 +22,7 @@ const Login = () => {
   return (
   <>
   <Helmet>
-    <title>Login | Apple E-Commerce</title>
+    <title>Login | Lamborghini E-Commerce</title>
     <meta name='description' content='Login' />
   </Helmet>
   <Title order={1} style={{ marginBottom: '10px' }}>Login</Title>

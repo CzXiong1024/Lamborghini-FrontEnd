@@ -22,7 +22,7 @@ const TransactionsList = () => {
   return (
     <>
     <Helmet>
-      <title>Manage Transactions | Apple E-Commerce</title>
+      <title>Manage Transactions | Lamborghini E-Commerce</title>
       <meta name='description' content='Admin Transactions' />
     </Helmet>
     <TextInput
