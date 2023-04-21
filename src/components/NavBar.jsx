@@ -3,7 +3,7 @@ import { Header, Container, Group, Button } from '@mantine/core';
 import { NavLink, Link } from 'react-router-dom';
 import { AuthContext } from '../context/authContext/AuthContext';
 import { CartState } from '../context/cartContext/CartContext';
-import { BrandApple, BrandReactNative, ShoppingCart } from 'tabler-icons-react';
+import { BrandReactNative, ShoppingCart } from 'tabler-icons-react';
 
 const NavBar = () => {
   const { user } = useContext(AuthContext);

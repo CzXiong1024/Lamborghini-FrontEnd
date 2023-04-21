@@ -93,7 +93,7 @@ const EditProduct = ({ editId, setEdit }) => {
       required
       />
       <Switch 
-      label="Admin Control" 
+      label="Is Admin" 
       size="md" 
       id="isAdmin" 
       checked={isAdmin}
@@ -102,7 +102,7 @@ const EditProduct = ({ editId, setEdit }) => {
       />
 
       <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '20px' }}>
-        <Button type="Submit" variant="light" size="sm" onClick={handleUpdate}>Update User</Button>
+        <Button type="Submit" size="sm" onClick={handleUpdate}>Update User</Button>
       </div>
     </>
       :

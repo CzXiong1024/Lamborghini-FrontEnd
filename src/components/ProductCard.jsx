@@ -13,7 +13,7 @@ const ProductCard = (props) => {
       </Card.Section>
       
       <Group position="apart" style={{ marginBottom: 5, marginTop: 5 }}>
-        <Text size={15} weight={400}>{props.title.substring(0, MAX_LENGTH)}...</Text>
+        <Text size={15} weight={400}>{props.title.substring(0, MAX_LENGTH)}</Text>
         <Badge color="pink" style={{fontSize: '1em'}}>
           ${props.price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")}
         </Badge>

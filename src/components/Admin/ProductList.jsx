@@ -36,15 +36,13 @@ const ProductList = () => {
       <title>Manage Products | Lamborghini E-Commerce</title>
       <meta name='description' content='Admin Products' />
     </Helmet>
-    <Link to='/account/add-product'>
-      <Button type="Submit" variant="light" color="green" size="sm">Add New Product</Button>
-    </Link>
+    
     <TextInput
       size="md"
       placeholder="Search by product name"
       onChange={(e) => setSearch(e.target.value)}
       rightSectionWidth={42}
-      style={{ marginTop: '20px', marginBottom: '20px' }}
+      style={{ marginBottom: '10px' }}
       icon={<Search size={24} color='black' />}
     />
     <NativeSelect
@@ -53,10 +51,13 @@ const ProductList = () => {
       onChange={(e) => setCategory(e.target.value)}
       value={category}
       placeholder="Select one"
-      label="Filter products by category"
+      label="Filter products"
       style={{ marginBottom: '10px' }}
     />
-
+    <Link to='/account/add-product'>
+      <Button type="Submit" color="orange" style={{marginTop: '10px'}}>Add New Product</Button>
+    </Link>
+    
     {edit ? 
     <EditProduct
     editId={editId}
@@ -67,7 +68,7 @@ const ProductList = () => {
     }
 
     {isFetching ?
-    <Loader color="violet" size="xl" variant="dots" style={{ padding: '20px', width: '100%', display: 'flex', justifyContent: 'center' }}/>
+    <Loader color="violet" size="xl" style={{ padding: '20px', width: '100%', display: 'flex', justifyContent: 'center' }}/>
     :
     <>
     <ScrollArea>
@@ -115,8 +116,8 @@ const ProductList = () => {
             <td>{product.title}</td>
             <td>{product.category}</td>
             <td>
-              <Button type="Submit" variant="light" color="orange" size="sm" style={{ marginRight: '10px' }} onClick={() => showEdit(product._id)}>Edit</Button>
-              <Button type="Submit" variant="light" color="red" size="sm" onClick={() => handleDelete(product._id)}>Delete</Button>
+              <Button type="Submit" color="blue" size="sm" style={{ marginRight: '15px' }} onClick={() => showEdit(product._id)}>Edit</Button>
+              <Button type="Submit" color="red" size="sm" onClick={() => handleDelete(product._id)}>Delete</Button>
             </td>
           </tr>
           )

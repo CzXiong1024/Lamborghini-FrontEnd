@@ -40,7 +40,7 @@ const UserList = () => {
       placeholder="Search by username"
       onChange={(e) => setSearch(e.target.value)}
       rightSectionWidth={42}
-      style={{ marginTop: '20px', marginBottom: '10px' }}
+      style={{ marginBottom: '10px' }}
       icon={<Search size={24} color='black' />}
     />
 
@@ -54,7 +54,7 @@ const UserList = () => {
     }
 
     {isFetching ?
-    <Loader color="violet" size="xl" variant="dots" style={{ padding: '20px', width: '100%', display: 'flex', justifyContent: 'center' }}/>
+    <Loader color="violet" size="xl" style={{ padding: '20px', width: '100%', display: 'flex', justifyContent: 'center' }}/>
     :
     <>
     <ScrollArea>
@@ -62,7 +62,7 @@ const UserList = () => {
         <thead>
           <tr>
             <th>Avatar</th>
-            <th>User Since</th>
+            <th>Register Time</th>
             <th>Last Updated</th>
             <th>Username</th>
             <th>Name</th>
@@ -100,8 +100,8 @@ const UserList = () => {
             <td>{user.username}</td>
             <td>{user.firstName} {user.lastName}</td>
             <td>
-              <Button type="Submit" variant="light" color="orange" size="sm" style={{ marginRight: '10px' }} onClick={() => showEdit(user._id)}>Edit</Button>
-              <Button type="Submit" variant="light" color="red" size="sm" onClick={() => handleDelete(user._id)}>Delete</Button>
+              <Button type="Submit" color="blue" size="sm" style={{ marginRight: '10px' }} onClick={() => showEdit(user._id)}>Edit</Button>
+              <Button type="Submit" color="red" size="sm" onClick={() => handleDelete(user._id)}>Delete</Button>
             </td>
           </tr>
           )

@@ -42,7 +42,7 @@ const EditProduct = ({ editId, setEdit }) => {
 
   // const handleUpdate = async () => {
   //   try {
-  //     await axios.put(`https://tranquil-brook-13044.herokuapp.com/api/products/update/${editId}`, {
+  //     await axios.put(`/api/products/update/${editId}`, {
   //       image: image,
   //       title: title,
   //       description: description,
@@ -113,7 +113,7 @@ const EditProduct = ({ editId, setEdit }) => {
       />
 
       <div style={{ display: 'flex', justifyContent: 'flex-end', marginTop: '20px' }}>
-        <Button type="Submit" variant="light" size="sm" onClick={handleUpdate}>Update Product</Button>
+        <Button type="Submit"size="sm" onClick={handleUpdate}>Update Product</Button>
       </div>
     </>
       :

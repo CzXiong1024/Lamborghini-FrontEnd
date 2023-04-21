@@ -30,11 +30,11 @@ const TransactionsList = () => {
       placeholder="Search by User ID"
       onChange={(e) => setSearch(e.target.value)}
       rightSectionWidth={42}
-      style={{ marginTop: '20px', marginBottom: '20px' }}
+      style={{ marginBottom: '10px' }}
       icon={<Search size={24} color='black' />}
     />
     {isFetching ?
-    <Loader color="violet" size="xl" variant="dots" style={{ padding: '20px', width: '100%', display: 'flex', justifyContent: 'center' }}/>
+    <Loader color="violet" size="xl" style={{ padding: '20px', width: '100%', display: 'flex', justifyContent: 'center' }}/>
     :
     <>
     <ScrollArea>
@@ -66,7 +66,7 @@ const TransactionsList = () => {
             <td>{transaction.user}</td>
             <td>{transaction.createdAt}</td>
             <td>
-              <Button type="Submit" variant="light" color="red" size="sm" onClick={() => handleDelete(transaction._id)}>Delete</Button>
+              <Button type="Submit" color="red" size="sm" onClick={() => handleDelete(transaction._id)}>Delete</Button>
             </td>
           </tr>
           )
