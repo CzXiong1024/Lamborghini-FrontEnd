@@ -34,7 +34,7 @@ const Products = () => {
     />
     <NativeSelect
       size="md"
-      data={['Accessories', 'Desktops', 'Laptops', 'Phones', 'Tablets', 'Watches']}
+      data={['Accessories', 'Desktops', 'Laptops', 'Phones', 'Tablets', 'Watches','Vehicles']}
       onChange={(e) => setCategory(e.target.value)}
       value={category}
       placeholder="Select one"

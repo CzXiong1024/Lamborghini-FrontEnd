@@ -96,7 +96,7 @@ const EditProduct = ({ editId, setEdit }) => {
       <NativeSelect
       size="md"
       id='category'
-      data={['Accessories', 'Desktops', 'Laptops', 'iPhones', 'iPads', 'Watches']}
+      data={['Accessories', 'Desktops', 'Laptops', 'Phones', 'Tablets', 'Watches','Vehicles']}
       value={category}
       onChange={(e) => setCategory(e.target.value)}
       placeholder="Select one"
