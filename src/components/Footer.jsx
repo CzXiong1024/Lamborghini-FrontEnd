@@ -8,10 +8,10 @@ const Footer = () => {
     <Header style={{ marginBottom: '20px' }}/>
       <div style={{ float: 'right' }}>
         <Breadcrumbs>
-          <Anchor href='https://github.com/austindflatt/ecommerce-client' target='_blank'>
+          <Anchor href='https://github.com/CzXiong1024/Lamborghini-FrontEnd' target='_blank'>
             View Source Code
           </Anchor>
-          <Anchor href='https://austinflatt.com' target='_blank'>
+          <Anchor href='https://glitch.com/@CzXiong1024' target='_blank'>
             View Portfolio
           </Anchor>
         </Breadcrumbs>
