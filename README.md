@@ -25,7 +25,7 @@ Password: 654321
 
 ## Screenshots
 
-![login](login.png)
+![login](login_new.png)
 
 ![user](user_account.png)
 
