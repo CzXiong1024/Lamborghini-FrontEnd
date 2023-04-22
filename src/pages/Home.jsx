@@ -17,9 +17,9 @@ const Home = () => {
     <Text order={3} style={{ marginTop: '10px' }}>Recent Products Added</Text>
     <ProductsHome />
 
-    {/* <Link to='/products'>
+    <Link to='/products'>
       <Button type="Submit" color="orange" style={{ marginTop: '20px', float: 'right' }}>View All Products</Button>
-    </Link> */}
+    </Link>
     </>
   )
 }
