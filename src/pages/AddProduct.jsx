@@ -61,7 +61,7 @@ const AddProduct = () => {
       <NativeSelect
       size="md"
       id='category'
-      data={['Accessories', 'Desktops', 'Laptops', 'Phones', 'Tablets', 'Watches','Vehicles']}
+      data={['Accessories', 'Desktops', 'Laptops', 'Phones', 'Tablets', 'Watches','Vehicles','Clothes', 'Toys', 'Decorations']}
       onChange={handleChange}
       placeholder="Select one"
       label="Choose category"
