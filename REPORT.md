@@ -30,7 +30,15 @@
 - Reflect upon the web technologies and standards you learned in this course, did you learn what you wanted? What technologies or standards do you think would be useful in future iterations of this course?
 
 ### Resources 
-- List any resources that you used in creating this project (I.e. tutorials, library documentation, or blog posts). Only include resources that are beyond the readings from the course. 
+- [read1: Build a Web App with React](https://blog.glitch.com/post/react-starter-kit)
+- [read2: Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html)
+- [read3: Creating a cart with React.js](https://commercejs.com/docs/community/creating-a-cart-with-react-js/)
+- [read4: How to Use MERN Stack: A Complete Guide](https://www.mongodb.com/languages/mern-stack-tutorial)
+- [watch1: Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHSlTtcmY)
+- [watch2: React JS - React Tutorial for Beginners](https://www.youtube.com/watch?v=Ke90Tje7VS0)
+- [watch3: How To Create An Advanced Shopping Cart With React and TypeScript](https://www.youtube.com/watch?v=lATafp15HWA&list=PLZlA0Gpn_vH_NT5zPVp18nGe_W9LqBDQK&index=43)
+- [watch4: React Shopping Cart Ecommerce Beginner Website - Build & Deploy A React Beginner Project](https://www.youtube.com/watch?v=tEMrD9t85v4)
+- [watch5: React JS Full Course 2022 | Build an App and Master React in 1 Hour](https://www.youtube.com/watch?v=b9eMGE7QtTk)
 
 
 
