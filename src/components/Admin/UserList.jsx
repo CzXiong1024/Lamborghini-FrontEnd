@@ -21,6 +21,7 @@ const UserList = () => {
 
   const handleDelete = (id) => {
     deleteUser(id, dispatch);
+    alert('User Deleted!');
   }
 
   const showEdit = (id) => {

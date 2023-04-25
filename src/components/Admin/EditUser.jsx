@@ -39,6 +39,7 @@ const EditProduct = ({ editId, setEdit }) => {
       isAdmin: isAdmin,
     }
     updateUser(updatedData, dispatch);
+    alert('User information updated!');
     setEdit(false);
   }
 
