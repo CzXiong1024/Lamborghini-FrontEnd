@@ -34,16 +34,16 @@
 4. Wrote the project report
 
 ### Technical Architecture 
-- What are the libraries, frameworks, and other technologies you used and how did you put them together. Use the MVC conceptual model to provide a guide (i.e. what are the models/views/controllers and what do they do).
-
-* MongoDB
-* Express
-* Node.js
-* React
-* Mantine UI
+- Models: Use Mongoose to define the schema for the data and provide an interface for working with MongoDB.
+- Views: Use React components to define the visual elements of our application and handle user interaction. Use React Router DOM to define the structure of the application and handle navigation. Use Tabler Icons React and Mantine UI to add visual elements to the application.
+- Controllers: Use Express to define routes and middleware functions to handle requests and interact with the Model and View layers. Use Axios to make HTTP requests from the client to the server. Use CORS to enable communication between the client and server. Use Date-fns to format dates and times for display to the user. Use Web Vitals to monitor and optimize the performance of the application.
 
 ### Challenges 
-- Discuss any challenges you faced in trying to develop this app. Were there libraries or technologies you wanted to use but we’re frustrating? Where there features you couldn’t get working?
+- Implementing secure password storage and user authentication can be complex and time-consuming. 
+- Balancing different functionality for general users and administrators can require careful planning and organization to ensure that each group of users has access to the appropriate features and information.
+- Unifying styles across different pages can be challenging, especially when working with a large and complex application. 
+- Providing a user-friendly experience can require significant attention to detail and user testing to identify and address usability issues.
+- Integrating with the back-end can be complex, especially if when working with multiple technologies and libraries. We have needed to troubleshoot issues related to API calls, data formatting, and data validation.
 
 ### Future Work 
 1. User reviews and ratings: Allow users to leave reviews and ratings for products, which can help other users make informed purchase decisions.
