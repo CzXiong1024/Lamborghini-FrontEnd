@@ -7,6 +7,7 @@ import { deleteProduct, getProducts } from '../../context/productContext/apiCall
 import { Search } from 'tabler-icons-react';
 import { Pagination } from '@mui/material';
 import EditProduct from './EditProduct';
+import formatDistance from "date-fns/formatDistance";
 
 const ProductList = () => {
   const { products, isFetching, dispatch } = useContext(ProductContext);
@@ -21,7 +22,10 @@ const ProductList = () => {
   }, [dispatch]);
 
   const handleDelete = (id) => {
-    deleteProduct(id, dispatch);
+    deleteProduct(id, dispatch)
+        .then(
+        alert('Successfully deleted!')
+  );
   }
 
   const showEdit = (id) => {
@@ -76,7 +80,7 @@ const ProductList = () => {
         <thead>
           <tr>
             <th>Image</th>
-            <th>Added</th>
+            <th>Added Date</th>
             <th>Product Title</th>
             <th>Category</th>
             <th>Actions</th>
@@ -102,6 +106,9 @@ const ProductList = () => {
           return false
         })
         .map((product) => {
+          const timestamp = product.createdAt;
+          const date = new Date(timestamp);
+          const formattedDate = date.toLocaleString();
           return (
             <tr key={product._id}>
             <td>
@@ -112,7 +119,7 @@ const ProductList = () => {
               src={product.image}
               />
             </td>
-            <td>{product.createdAt}</td>
+            <td>{formattedDate}</td>
             <td>{product.title}</td>
             <td>{product.category}</td>
             <td>
