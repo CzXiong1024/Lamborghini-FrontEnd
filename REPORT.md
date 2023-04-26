@@ -3,7 +3,11 @@
 ## Report
 
 ### Introduction
-- Team: Chengzhuo Xiong(CHX53) Yutong Tang(YUT89) Shiyuan Luo(SHL298) Sizhe Fu(SIF33) 
+- Team: 
+  - Chengzhuo Xiong (CHX53) 
+  - Yutong Tang (YUT89) 
+  - Shiyuan Luo (SHL298) 
+  - Sizhe Fu (SIF33) 
 - The e-commerce website is built with the MERN stack, which includes MongoDB, ExpressJS, React, and NodeJS. It is designed to be a general online shopping website that includes several different categories of products, such as accessories, desktops, laptops, phones, tablets, watches, vehicles, clothes, toys, and decorations.Guests can browse the products and select the ones they want to purchase. They can also register as users to add products to their shopping cart and complete the checkout process. Administrators have access to manage all the products and users on the website.Overall, the e-commerce website provides a user-friendly experience for shoppers to easily find and purchase products, while also providing administrators with the necessary tools to manage the website's content and users.
 
 ### Objective 
