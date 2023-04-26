@@ -16,7 +16,10 @@ const TransactionsList = () => {
   }, [dispatch]);
 
   const handleDelete = (id) => {
-    deleteTransaction(id, dispatch);
+    deleteTransaction(id, dispatch)
+        .then(
+            alert('Transaction Deleted!')
+        );
   }
 
   return (

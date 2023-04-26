@@ -21,7 +21,10 @@ const ProductList = () => {
   }, [dispatch]);
 
   const handleDelete = (id) => {
-    deleteProduct(id, dispatch);
+    deleteProduct(id, dispatch)
+        .then(
+        alert('Successfully deleted!')
+  );
   }
 
   const showEdit = (id) => {
