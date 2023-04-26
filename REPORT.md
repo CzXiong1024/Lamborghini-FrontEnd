@@ -70,31 +70,33 @@
 
 
 ### 7. Conclusion 
-In this course, we have learnt a board range of web technologies and standard, including HTML,
+- In this course, we have learnt a board range of web technologies and standard, including HTML,
 CSS, JavaScript, AJAX, Bootstrap, Front-end Frameworks, Back-end Frameworks, RESTful API, and 
 MongoDB. These elements are important concepts and components of full-stack development. Therefore this course fits well with our career development aspirations. 
 
-From our perspective, it would have been nice if the class could have covered in depth a complete full-stack development process (e.g. MERN or MEAN, etc.) involving everything from project design to deployment to remote servers.
+- From our perspective, it would have been nice if the class could have covered in depth a complete full-stack development process (e.g. MERN or MEAN, etc.) involving everything from project design to deployment to remote servers.
 
 ### 8. Resources 
 - [read1: Build a Web App with React](https://blog.glitch.com/post/react-starter-kit)
 - [read2: Tutorial: Intro to React](https://reactjs.org/tutorial/tutorial.html)
 - [read3: Creating a cart with React.js](https://commercejs.com/docs/community/creating-a-cart-with-react-js/)
 - [read4: How to Use MERN Stack: A Complete Guide](https://www.mongodb.com/languages/mern-stack-tutorial)
-<<<<<<< HEAD
 - [read5: crypto-js](https://www.npmjs.com/package/crypto-js)
 - [read6: JWT.IO](https://jwt.io/)
 - [read7: Libraries for Token Signing/Verification](https://jwt.io/libraries)
 - [read8: 134 responsive components built with Mantine](https://ui.mantine.dev/#main)
 - [read9: Getting Started | Axios Docs](https://axios-http.com/docs/intro)
 - [read10: date-fns documentation](https://devdocs.io/date_fns/)
-=======
->>>>>>> f584ea4a234163ed6b6a12c0a92e639993c2f80c
 - [watch1: Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHSlTtcmY)
 - [watch2: React JS - React Tutorial for Beginners](https://www.youtube.com/watch?v=Ke90Tje7VS0)
 - [watch3: How To Create An Advanced Shopping Cart With React and TypeScript](https://www.youtube.com/watch?v=lATafp15HWA&list=PLZlA0Gpn_vH_NT5zPVp18nGe_W9LqBDQK&index=43)
 - [watch4: React Shopping Cart Ecommerce Beginner Website - Build & Deploy A React Beginner Project](https://www.youtube.com/watch?v=tEMrD9t85v4)
 - [watch5: React JS Full Course 2022 | Build an App and Master React in 1 Hour](https://www.youtube.com/watch?v=b9eMGE7QtTk)
+- [watch6: Cryptography using JavaScript (CryptoJS)](https://www.youtube.com/watch?v=hBbtvlFxUDg)
+- [watch7: What Is JWT and Why Should You Use JWT](https://www.youtube.com/watch?v=7Q17ubqLfaM)
+- [watch8: 7 Cryptography Concepts EVERY Developer Should Know](https://www.youtube.com/watch?v=NuyzuNBFWxQ)
+- [watch9: Introduction to Mantine UI Library | Mantine](https://www.youtube.com/watch?v=PQ9htM_LBVs)
+- [watch10: Full Mantine Course](https://www.youtube.com/watch?v=57vs7TLth74)
 
 
 
