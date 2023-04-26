@@ -38,11 +38,14 @@ const Transactions = () => {
               .reverse()
               .slice((page - 1) * 10, (page - 1) * 10 + 10)
               .map((transaction) => {
+                const timestamp = transaction.createdAt;
+                const date = new Date(timestamp);
+                const formattedDate = date.toLocaleString();
                 return (
                   <tr key={transaction._id}>
                     <td>{transaction._id}</td>
                     <td>${transaction.total}</td>
-                    <td>{transaction.createdAt}</td>
+                    <td>{formattedDate}</td>
                   </tr>
                 )
               })

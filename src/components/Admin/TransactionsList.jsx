@@ -63,11 +63,14 @@ const TransactionsList = () => {
           return false
         })
         .map((transaction) => {
+          const timestamp = transaction.createdAt;
+          const date = new Date(timestamp);
+          const formattedDate = date.toLocaleString();
           return (
             <tr key={transaction._id}>
             <td>{transaction._id}</td>
             <td>{transaction.user}</td>
-            <td>{transaction.createdAt}</td>
+            <td>{formattedDate}</td>
             <td>
               <Button type="Submit" color="orange" size="sm" onClick={() => handleDelete(transaction._id)}>Delete</Button>
             </td>
