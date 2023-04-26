@@ -77,6 +77,8 @@ MongoDB. These elements are important concepts and components of full-stack deve
 - [read6: JWT.IO](https://jwt.io/)
 - [read7: Libraries for Token Signing/Verification](https://jwt.io/libraries)
 - [read8: 134 responsive components built with Mantine](https://ui.mantine.dev/#main)
+- [read9: Getting Started | Axios Docs](https://axios-http.com/docs/intro)
+- [read10: date-fns documentation](https://devdocs.io/date_fns/)
 - [watch1: Learn React In 30 Minutes](https://www.youtube.com/watch?v=hQAHSlTtcmY)
 - [watch2: React JS - React Tutorial for Beginners](https://www.youtube.com/watch?v=Ke90Tje7VS0)
 - [watch3: How To Create An Advanced Shopping Cart With React and TypeScript](https://www.youtube.com/watch?v=lATafp15HWA&list=PLZlA0Gpn_vH_NT5zPVp18nGe_W9LqBDQK&index=43)
