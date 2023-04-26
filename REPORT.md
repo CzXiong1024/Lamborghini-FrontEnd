@@ -3,7 +3,11 @@
 ## Report
 
 ### Introduction
-- Team: Chengzhuo Xiong(CHX53) Yutong Tang(YUT89) Shiyuan Luo(SHL298) Sizhe Fu(SIF33) 
+- Team: 
+  - Chengzhuo Xiong (CHX53) 
+  - Yutong Tang (YUT89) 
+  - Shiyuan Luo (SHL298) 
+  - Sizhe Fu (SIF33) 
 - The e-commerce website is built with the MERN stack, which includes MongoDB, ExpressJS, React, and NodeJS. It is designed to be a general online shopping website that includes several different categories of products, such as accessories, desktops, laptops, phones, tablets, watches, vehicles, clothes, toys, and decorations.Guests can browse the products and select the ones they want to purchase. They can also register as users to add products to their shopping cart and complete the checkout process. Administrators have access to manage all the products and users on the website.Overall, the e-commerce website provides a user-friendly experience for shoppers to easily find and purchase products, while also providing administrators with the necessary tools to manage the website's content and users.
 
 ### Objective 
@@ -55,7 +59,11 @@
 
 
 ### Conclusion 
-- Reflect upon the web technologies and standards you learned in this course, did you learn what you wanted? What technologies or standards do you think would be useful in future iterations of this course?
+In this course, we have learnt a board range of web technologies and standard, including HTML,
+CSS, JavaScript, AJAX, Bootstrap, Front-end Frameworks, Back-end Frameworks, RESTful API, and 
+MongoDB. These elements are important concepts and components of full-stack development. Therefore this course fits well with our career development aspirations. 
+
+From our perspective, it would have been nice if the class could have covered in depth a complete full-stack development process (e.g. MERN or MEAN, etc.) involving everything from project design to deployment to remote servers.
 
 ### Resources 
 - [read1: Build a Web App with React](https://blog.glitch.com/post/react-starter-kit)
