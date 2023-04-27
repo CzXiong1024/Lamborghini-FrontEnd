@@ -29,13 +29,13 @@
 1. Developed the APIs for authentication and users 
 2. Established the web tokens for user verification
 3. Debug the code for the whole project
-4. Participated for making the slides (Introduction & Features)
+4. Participated for making the slides (Technologies & Challenges)
 
 - Yutong Tang(Project Designer & Back-end Developer)
 1. Established the data models for products/transactions/users
 2. Developed the APIs for products and transactions
 3. Debug for the connection between front-end & back-end
-4. Participated for making the slides (Technologies & Challenges)
+4. Participated for making the slides (Introduction & Features)
 
 - Shiyuan luo(Project Designer & Front-end Developer)
 1. Created the website's structure, styling, and interactivity
