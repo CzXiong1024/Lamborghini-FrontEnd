@@ -36,7 +36,10 @@ const EditProduct = ({ editId, setEdit }) => {
       category: category,
       price: price
     }
-    updateProduct(updatedData, dispatch);
+    updateProduct(updatedData, dispatch)
+        .then(
+            alert('Product Updated!')
+        );
     setEdit(false);
   }
 

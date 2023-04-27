@@ -1,6 +1,6 @@
 # Lamborghini E-Commerce
 
-# Notice: This is only the `ReadMe.md` file for instruction of running & testing the project. For viewing the report of this project, please see `REPORT.md` file.
+# - *Notice: This is only the `ReadMe.md` file for instruction of running & testing the project. For viewing the report of this project, please see `REPORT.md` file.*
 
 ## How to Test
 

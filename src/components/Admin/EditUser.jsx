@@ -38,8 +38,10 @@ const EditProduct = ({ editId, setEdit }) => {
       profilePic: profilePic,
       isAdmin: isAdmin,
     }
-    updateUser(updatedData, dispatch);
-    alert('User information updated!');
+    updateUser(updatedData, dispatch)
+        .then(
+            alert('User information updated!')
+        );
     setEdit(false);
   }
 
