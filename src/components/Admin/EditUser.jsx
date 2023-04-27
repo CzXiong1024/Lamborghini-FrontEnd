@@ -39,9 +39,10 @@ const EditProduct = ({ editId, setEdit }) => {
       isAdmin: isAdmin,
     }
     updateUser(updatedData, dispatch)
-        .then(
-            alert('User information updated!')
-        );
+        .then(() => {
+          alert('User information updated!');
+          window.location.reload();
+        });
     setEdit(false);
   }
 
@@ -93,7 +94,6 @@ const EditProduct = ({ editId, setEdit }) => {
       onChange={(e) => setProfilePic(e.target.value)}
       id="profilePic"
       size="md"
-      required
       />
       <Switch 
       label="Is Admin" 
