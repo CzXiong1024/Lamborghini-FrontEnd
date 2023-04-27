@@ -19,35 +19,64 @@
   - Yutong Tang (YUT89) 
   - Shiyuan Luo (SHL298) 
   - Sizhe Fu (SIF33) 
-- The e-commerce website is built with the MERN stack, which includes MongoDB, ExpressJS, React, and NodeJS. It is designed to be a general online shopping website that includes several different categories of products, such as accessories, desktops, laptops, phones, tablets, watches, vehicles, clothes, toys, and decorations.Guests can browse the products and select the ones they want to purchase. They can also register as users to add products to their shopping cart and complete the checkout process. Administrators have access to manage all the products and users on the website.Overall, the e-commerce website provides a user-friendly experience for shoppers to easily find and purchase products, while also providing administrators with the necessary tools to manage the website's content and users.
+- The e-commerce website is built with the MERN stack, which includes MongoDB, ExpressJS, React, and NodeJS. It is designed to be a general online shopping website that includes several different categories of products, such as accessories, desktops, laptops, phones, tablets, watches, vehicles, clothes, toys, and decorations. 
+- Guests can browse the products and select the ones they want to purchase. They can also register as users to add products to their shopping cart and complete the checkout process. 
+- Administrators have access to manage all the products and users on the website
+- Overall, the e-commerce website provides a user-friendly experience for shoppers to easily find and purchase products, while also providing administrators with the necessary tools to manage the website's content and users.
 
 ### 2. Objective 
-- Describe with more specific details what your objectives and goals are for the project. What problems did you want to solve or what did you want to learn in developing this application? What features, beyond the ones listed in the assignment requirements, did you implement?
+- Objectives and goals
+  - The project aims to create an online marketplace where users can browse and purchase products. There are three main types of users in the system: guests, registered users, and administrators.
+  - Guests are visitors who have not yet registered an account on the platform. They can browse the website and view recently added products. If they decide to make a purchase, they must register as a user.
+  - Registered users can log in to the system using their credentials. Once logged in, they have access to additional features such as viewing their profile information, viewing their transaction history, filtering products by name or category, adding products to their shopping cart, and viewing/editing their shopping cart. Registered users can also place an order for the products in their shopping cart.
+  - Administrators have access to all the features of the system. They can log in to the system and view their profile information. They can add, edit, or delete products from the system. Administrators can also view all transactions made on the platform and view information about all users registered on the platform. Additionally, administrators have the ability to edit or delete user accounts.
+  - Overall, the goal of the project is to create a fully functional online marketplace where guests can become registered users, purchase products, and administrators can manage the platform and its users.
+
+- Things learned:
+  - Developing a fully functional online marketplace with multiple user types and access levels.
+  - Implementing user authentication and authorization features.
+  - Implementing features such as product filtering, shopping cart management, and order processing.
+  - Developing a robust database schema to efficiently store and retrieve data.
+  - Building an intuitive and responsive user interface.
+  - Testing, debugging, and deploying a web application.
+
+- Beyond requirements:
+  - In addition to the features listed in the assignment requirements, we implemented several additional features to improve the functionality and usability of the application. 
+  - One of the features we used was the date-fns library to format date and time values. This allowed us to display dates and times in a user-friendly format and made it easier for users to understand and interact with the data. 
+  - Another feature we implemented was JSON web token (JWT) authentication. This allowed us to securely authenticate users and protect sensitive data within the application. 
+  - Additionally, we implemented various other enhancements such as improved error handling, optimized database queries, and improved user interface elements to create a more polished and user-friendly experience. 
+  - Overall, these additional features helped to improve the functionality, usability, and security of the application, and allowed us to provide a more comprehensive and enjoyable user experience.
+
+
+
+
+
+
 
 ### 3. Team member’s contributions 
 - Chengzhuo Xiong(Project Manager & Back-end Developer):
-1. Developed the APIs for authentication and users 
-2. Established the web tokens for user verification
-3. Debug the code for the whole project
-4. Participated for making the slides (Technologies & Challenges)
+  1. Developed the APIs for authentication and users 
+  2. Established the web tokens for user verification
+  3. Debug the code for the whole project
+  4. Participated for making the slides (Technologies & Challenges)
 
 - Yutong Tang(Project Designer & Back-end Developer)
-1. Established the data models for products/transactions/users
-2. Developed the APIs for products and transactions
-3. Debug for the connection between front-end & back-end
-4. Participated for making the slides (Introduction & Features)
+  1. Established the data models for products/transactions/users
+  2. Developed the APIs for products and transactions
+  3. Debug for the connection between front-end & back-end
+  4. Participated for making the slides (Introduction & Features)
 
 - Shiyuan luo(Project Designer & Front-end Developer)
-1. Created the website's structure, styling, and interactivity
-2. Integrated front-end components with the website's back-end systems
-3. Worked for responsive design
-4. Wrote the project report
+  1. Created the website's structure, styling, and interactivity
+  2. Integrated front-end components with the website's back-end systems
+  3. Worked for responsive design
+  4. Wrote the project report
 
 - Sizhe Fu(Project Designer & Front-end Developer)
-1. Created the website's structure, styling, and interactivity
-2. Integrated front-end components with the website's back-end systems
-3. Worked for responsive design
-4. Wrote the project report
+  1. Created the website's structure, styling, and interactivity
+  2. Integrated front-end components with the website's back-end systems
+  3. Worked for responsive design
+  4. Wrote the project report
 
 ### 4. Technical Architecture 
 - Models: Use Mongoose to define the schema for the data and provide an interface for working with MongoDB.
@@ -62,12 +91,12 @@
 - Integrating with the back-end can be complex, especially if when working with multiple technologies and libraries. We have needed to troubleshoot issues related to API calls, data formatting, and data validation.
 
 ### 6. Future Work 
-1. User reviews and ratings: Allow users to leave reviews and ratings for products, which can help other users make informed purchase decisions.
-2. Wishlist: Allow users to save products they are interested in for future reference.
-3. Social media integration: Allow users to share products on social media platforms such as Facebook, Twitter, and Instagram.
-4. Order tracking: Provide users with the ability to track the status of their orders.
-5. Payment: Allow users to pay after they submit the order.
-6. Technologies to learn: Payment Gateways, Server-Side Rendering (SSR), Content Delivery Network (CDN)
+- User reviews and ratings: Allow users to leave reviews and ratings for products, which can help other users make informed purchase decisions.
+- Wishlist: Allow users to save products they are interested in for future reference.
+- Social media integration: Allow users to share products on social media platforms such as Facebook, Twitter, and Instagram.
+- Order tracking: Provide users with the ability to track the status of their orders.
+- Payment: Allow users to pay after they submit the order.
+- Technologies to learn: Payment Gateways, Server-Side Rendering (SSR), Content Delivery Network (CDN)
 
 
 ### 7. Conclusion 
